@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <html lang="en">
+        <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Kuliah</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+        }
+        th {
+            background-color: #e8ec00;
+            color: rgb(0, 0, 0);
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            height:60px;
+            background-color:#000000;
+            box-shadow:2px 2px 12px rgba(233, 211, 211, 0.2);
+            padding:0px 5%;
+        }
+        nav ul{
+            display: flex;
+        }
+        nav ul li a{
+            margin:30px;
+            font-family:myriad pro regular;
+            color:#ffffff;
+            font-size: 15px;
+            font-weight:700;
+        }
+        .logo{
+            font-family:RoadTest;
+            color:#ffffff;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .active{
+            color:#a70000;
+            font-weight:bold;
+        }
+        </style>
+</head>
+<body>
+    <nav>
+        <!--- logo --->
+        <a href="index.html"><img src="images/logo kami 1.png" width="100" height="100"></a>>
+        <!--- menu --->
+        <ul>
+            <li><a href="index.html">Main Page</a></li>
+            <li><a href="home.html" >Home</a></li>
+            <li><a href="pendidikan.html" >Pendidikan</a></li>
+            <li><a href="Jadwal-kuliah.html" class="active">Jadwal Kuliah</a></li>
+            <li><a href="aktivitas.html">Aktivitas</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Jadwal Kuliah</h2>
+    <table border="1">
+        <tr>
+            <th rowspan="2">Mata Kuliah</th>
+            <th colspan="5">Keterangan Mata Kuliah</th>
+        </tr>
+        <tr>
+            <th>Hari</th>
+            <th>Jam</th>
+            <th>Kelas</th>
+            <th>Pengampu</th>
+            <th>Gedung</th>
+        </tr>
+        <tr>
+            <td>Basis Data II</td>
+            <td>Senin</td>
+            <td>08:50:00 - 09:40:00 s.d 09:45:00 - 10:35:00</td>
+            <td>B</td>
+            <td>LASMEDI AFUAN</td>
+            <td>Ruang GEDUNG TEKNIK E 304</td>
+        </tr>
+        <tr>
+            <td>E-Commerce</td>
+            <td>Senin</td>
+            <td>10:40:00 - 11:30:00 s.d 11:35:00 - 12:25:00</td>
+            <td>A</td>
+            <td>NURUL HIDAYAT</td>
+            <td>Ruang F201</td>
+        </tr>
+        <tr>
+            <td>Struktur Data</td>
+            <td>Senin</td>
+            <td>13:00:00 - 13:50:00 s.d 14:50:00 - 15:40:00</td>
+            <td>C</td>
+            <td>EDDY MARYANTO</td>
+            <td>Ruang F201</td>
+        </tr>
+        <tr>
+            <td>Probabilitas dan Statistika</td>
+            <td>Selasa</td>
+            <td>07:00:00 - 07:50:00 s.d 07:55:00 - 08:45:00</td>
+            <td>A</td>
+            <td>YOGIEK INDRA KURNIAWAN</td>
+            <td>GEDUNG TEKNIK E 304</td>
+        </tr>
+        <tr>
+            <td>Jati Diri Unsoed</td>
+            <td>Selasa</td>
+            <td>13:00:00 - 13:50:00 s.d 13:55:00 - 14:45:00</td>
+            <td>A</td>
+            <td>NURUL HIDAYAT</td>
+            <td>Ruang GEDUNG TEKNIK E 304</td>
+        </tr>
+        <tr>
+            <td>Matematika Diskrit</td>
+            <td>Rabu</td>
+            <td>09:45:00 - 10:35:00 s.d 11:35:00 - 12:25:00</td>
+            <td>A</td>
+            <td>IPUNG PERMADI</td>
+            <td>Ruang F201</td>
+        </tr>
+        <tr>
+            <td>Sistem Operasi</td>
+            <td>Rabu</td>
+            <td>13:00:00 - 13:50:00 s.d 13:00:00 - 13:50:00</td>
+            <td>A</td>
+            <td>ARIEF KELIK NUGROHO</td>
+            <td>Ruang GEDUNG TEKNIK E 304</td>
+        </tr>
+        <tr>
+            <td>Praktikum Sistem Operasi</td>
+            <td>Rabu</td>
+            <td>13:00:00 - 13:50:00 s.d 13:00:00 - 13:50:00</td>
+            <td>Shift-G</td>
+            <td>ARIEF KELIK NUGROHO</td>
+            <td>Ruang Lab. Jaringan komputer</td>
+        </tr>
+        <tr>
+            <td>Pancasila</td>
+            <td>Kamis</td>
+            <td>08:50:00 - 09:40:00 s.d 09:45:00 - 10:35:00</td>
+            <td>B</td>
+            <td>MUSMUALLIM</td>
+            <td>Ruang GEDUNG TEKNIK E 304</td>
+        </tr>
+        <tr>
+            <td>Web Design</td>
+            <td>Kamis</td>
+            <td>13:00:00 - 13:50:00 s.d 13:55:00 - 14:45:00</td>
+            <td>A</td>
+            <td>NURUL HIDAYAT</td>
+            <td>Ruang F201</td>
+        </tr>
+        <tr>
+            <td>Praktikum Struktur Data</td>
+            <td>Kamis</td>
+            <td>14:50:00 - 15:40:00 s.d 14:50:00 - 15:40:00 </td>
+            <td>Shift-G</td>
+            <td>BANGUN WIJAYANTO</td>
+            <td>Ruang LAB. Pemrograman</td>
+        </tr>
+    </table>
+</body>
+</html>
